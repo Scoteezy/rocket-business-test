@@ -1,0 +1,14 @@
+.hero {
+  img {
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  &__res {
+    display: none;
+  }
+  &__description {
+    h2 {
+      margin-bottom: 9px;
+    }
+  }
+}

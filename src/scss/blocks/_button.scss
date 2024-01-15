@@ -1,0 +1,33 @@
+.button {
+  width: 196px;
+  height: 43px;
+  background-color: $main-color;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #00d29f;
+  }
+  &-white {
+    background-color: #fff;
+    color: $secondary-color;
+    &:hover {
+      background-color: $main-color;
+      color: #fff;
+    }
+  }
+  &-outlined {
+    background: transparent;
+    border: 1px solid $main-color;
+    color: $main-color;
+    &:hover {
+      border: none;
+      color: #fff;
+      background-color: $main-color;
+    }
+  }
+  &-small {
+    width: 137px;
+  }
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rocket Business</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-mobile">
+          <div class="hamburger hamburger-active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span class="logo">LOGO</span>
+          <div class="header__contact">
+            <div>+7(863) 000 00 00</div>
+            <span>Ростов-на-дону</span>
+          </div>
+        </div>
+        <div class="header-desktop">
+          <div>
+            <span class="logo">LOGO</span>
+            <div class="header__info">
+              <div class="header__address">
+                <img src="/images/point.svg" alt="point" />Ростов-на-дону
+              </div>
+              <p>ул. Ленина, 2Б</p>
+            </div>
+          </div>
+          <div class="header__contacts">
+            <div class="header__number">
+              <img src="/images/whatsapp-mini.svg" alt="whatsapp" />+7(863) 000
+              00 00
+            </div>
+
+            <button class="button" data-modal="consultation">
+              Записаться на прием
+            </button>
+          </div>
+        </div>
+
+        <nav aria-label="mobile nav" class="mobile-nav">
+          <ul class="nav__links">
+            <li class="nav__link">О клинике</li>
+            <li class="nav__link">Услуги</li>
+            <li class="nav__link">Специалисты</li>
+            <li class="nav__link">Цены</li>
+            <li class="nav__link">Контакты</li>
+          </ul>
+          <button class="button button-white" data-modal="consultation">
+            Записаться на приём
+          </button>
+        </nav>
+      </header>
+    </div>
+    <nav aria-label="desktop nav" class="desktop-nav">
+      <div class="wrapper">
+        <ul class="nav__links">
+          <li class="nav__link">О клинике</li>
+          <li class="nav__link">Услуги</li>
+          <li class="nav__link">Специалисты</li>
+          <li class="nav__link">Цены</li>
+          <li class="nav__link">Контакты</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <img src="/images/hero.jpg" alt="clinic image" />
+      <img
+        class="hero__res"
+        src="/images/hero-high-res.jpg"
+        alt=" clinic image"
+      />
+      <div class="wrapper">
+        <div class="container__hero">
+          <div class="hero__description">
+            <h2 class="title">Многопрофильная клиника для детей и взрослых</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </div>
+          <div class="empty"></div>
+        </div>
+      </div>
+    </section>
+    <section class="checkup">
+      <div class="wrapper">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="checkup__card">
+                <img
+                  class="checkup__img"
+                  src="/images/checkup.jpg"
+                  alt="doctor"
+                />
+                <div class="checkup__descr">
+                  <h2 class="title">Check-UP</h2>
+                  <h3 class="checkup__subtitle">для мужчин</h3>
+                  <ul class="checkup__list">
+                    <li class="checkup__item">Гормональный скрининг</li>
+                    <li class="checkup__item">Тестостерон</li>
+                    <li class="checkup__item">Свободный тестостерон</li>
+                    <li class="checkup__item">
+                      Глобулин, связывающий половые гормоны
+                    </li>
+                  </ul>
+                  <div class="checkup__price">Всего 2800₽ <s>3500₽ </s></div>
+                  <div class="checkup__btns">
+                    <button
+                      class="button button-small"
+                      data-modal="consultation"
+                    >
+                      Записаться
+                    </button>
+                    <button class="button button-small button-outlined">
+                      Подробнее
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="checkup__card">
+                <img
+                  class="checkup__img"
+                  src="/images/checkup.jpg"
+                  alt="doctor"
+                />
+                <div class="checkup__descr">
+                  <h2 class="title">Check-UP</h2>
+                  <h3 class="checkup__subtitle">для мужчин</h3>
+                  <ul class="checkup__list">
+                    <li class="checkup__item">Гормональный скрининг</li>
+                    <li class="checkup__item">Тестостерон</li>
+                    <li class="checkup__item">Свободный тестостерон</li>
+                    <li class="checkup__item">
+                      Глобулин, связывающий половые гормоны
+                    </li>
+                  </ul>
+                  <div class="checkup__price">Всего 2800₽ <s>3500₽ </s></div>
+                  <div class="checkup__btns">
+                    <button
+                      class="button button-small"
+                      data-modal="consultation"
+                    >
+                      Записаться
+                    </button>
+                    <button class="button button-small button-outlined">
+                      Подробнее
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="checkup__card">
+                <img
+                  class="checkup__img"
+                  src="/images/checkup.jpg"
+                  alt="doctor"
+                />
+                <div class="checkup__descr">
+                  <h2 class="title">Check-UP</h2>
+                  <h3 class="checkup__subtitle">для мужчин</h3>
+                  <ul class="checkup__list">
+                    <li class="checkup__item">Гормональный скрининг</li>
+                    <li class="checkup__item">Тестостерон</li>
+                    <li class="checkup__item">Свободный тестостерон</li>
+                    <li class="checkup__item">
+                      Глобулин, связывающий половые гормоны
+                    </li>
+                  </ul>
+                  <div class="checkup__price">Всего 2800₽ <s>3500₽ </s></div>
+                  <div class="checkup__btns">
+                    <button
+                      class="button button-small"
+                      data-modal="consultation"
+                    >
+                      Записаться
+                    </button>
+                    <button class="button button-small button-outlined">
+                      Подробнее
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="checkup__card">
+                <img
+                  class="checkup__img"
+                  src="/images/checkup.jpg"
+                  alt="doctor"
+                />
+                <div class="checkup__descr">
+                  <h2 class="title">Check-UP</h2>
+                  <h3 class="checkup__subtitle">для мужчин</h3>
+                  <ul class="checkup__list">
+                    <li class="checkup__item">Гормональный скрининг</li>
+                    <li class="checkup__item">Тестостерон</li>
+                    <li class="checkup__item">Свободный тестостерон</li>
+                    <li class="checkup__item">
+                      Глобулин, связывающий половые гормоны
+                    </li>
+                  </ul>
+                  <div class="checkup__price">Всего 2800₽ <s>3500₽ </s></div>
+                  <div class="checkup__btns">
+                    <button
+                      class="button button-small"
+                      data-modal="consultation"
+                    >
+                      Записаться
+                    </button>
+                    <button class="button button-small button-outlined">
+                      Подробнее
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__inner">
+          <span class="logo logo-white">LOGO</span>
+          <div class="footer__descr">
+            <nav aria-label="footer nav">
+              <ul class="nav__links">
+                <li class="nav__link">О клинике</li>
+                <li class="nav__link">Услуги</li>
+                <li class="nav__link">Специалисты</li>
+                <li class="nav__link">Цены</li>
+                <li class="nav__link">Контакты</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__logos">
+            <img src="/images/socials/inst.svg" alt="instagram icon" />
+            <img src="/images/socials/whatsup.svg" alt="whatsup icon" />
+            <img src="/images/socials/tg.svg" alt="telegram icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay">
+      <div class="modal animate__animated" id="consultation">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Просто заполните форму заявки</div>
+        <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+        <form class="modal__form" action="mail.php" method="POST">
+          <input
+            name="name"
+            id="name"
+            minlength="2"
+            maxlength="32"
+            type="text"
+            placeholder="Ваше имя"
+            required
+          />
+          <input
+            name="phone"
+            type="tel"
+            id="tel"
+            placeholder="Ваш телефон +7"
+            pattern="^\+7[1-9]{10}$"
+            required
+          />
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Ваш E-mail"
+            required
+          />
+
+          <button
+            data-modal="submit"
+            type="submit"
+            class="button button_submit"
+          >
+            Заказать консультацию
+          </button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

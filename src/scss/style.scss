@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 340px;
+  margin: 0 auto;
+}
+@import "normalize.css";
+@import "variables.scss";
+@import "animate.css";
+
+@import "./blocks/nav";
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/title";
+@import "./blocks/checkup";
+@import "./blocks/footer";
+@import "./blocks/modal";
+
+@import "libraries.scss";
+@import "./blocks/button";
+@import "./media.scss";
+
+* {
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 32px;
+  color: #0dbc91;
+  &-white {
+    font-size: 40px;
+    color: white;
+  }
+}

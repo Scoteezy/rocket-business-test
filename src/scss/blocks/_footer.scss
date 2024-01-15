@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 35px;
+  background-color: #08664f;
+  height: 300px;
+  &__inner {
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  span {
+    order: 1;
+  }
+  &__descr {
+    order: 3;
+  }
+
+  &__logos {
+    order: 2;
+
+    display: flex;
+    margin-right: 1px;
+    img {
+      margin-left: 20px;
+      :first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
